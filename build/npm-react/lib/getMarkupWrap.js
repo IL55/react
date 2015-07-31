@@ -9,9 +9,9 @@
  * @providesModule getMarkupWrap
  */
 
-var ExecutionEnvironment = require('ExecutionEnvironment');
+var ExecutionEnvironment = require("./ExecutionEnvironment");
 
-var invariant = require('invariant');
+var invariant = require("./invariant");
 
 /**
  * Dummy container used to detect which wraps are necessary.
@@ -98,7 +98,7 @@ var markupWrap = {
  * @return {?array} Markup wrap configuration, if applicable.
  */
 function getMarkupWrap(nodeName) {
-  invariant(!!dummyNode, 'Markup wrapping node not initialized');
+  ("production" !== process.env.NODE_ENV ? invariant(!!dummyNode, 'Markup wrapping node not initialized') : invariant(!!dummyNode));
   if (!markupWrap.hasOwnProperty(nodeName)) {
     nodeName = '*';
   }
