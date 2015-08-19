@@ -64,7 +64,15 @@ var SVGDOMPropertyConfig = {
     y2: MUST_USE_ATTRIBUTE,
     y: MUST_USE_ATTRIBUTE,
     mask: MUST_USE_ATTRIBUTE,
-    filter: MUST_USE_ATTRIBUTE
+    filter: MUST_USE_ATTRIBUTE,
+    type: MUST_USE_ATTRIBUTE,
+    slope: MUST_USE_ATTRIBUTE, 
+    intercept: MUST_USE_ATTRIBUTE, 
+    in: MUST_USE_ATTRIBUTE, 
+    stdDeviation: MUST_USE_ATTRIBUTE, 
+    in2: MUST_USE_ATTRIBUTE, 
+    result: MUST_USE_ATTRIBUTE, 
+    mode: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
     clipPath: 'clip-path',
@@ -89,7 +97,15 @@ var SVGDOMPropertyConfig = {
     textAnchor: 'text-anchor',
     viewBox: 'viewBox',
     mask: 'mask',
-    filter: 'filter'
+    filter: 'filter',
+    type: 'type',
+    slope: 'slope', 
+    intercept: 'intercept', 
+    in: 'in', 
+    stdDeviation: 'stdDeviation', 
+    in2: 'in2', 
+    result: 'result', 
+    mode: 'mode'
   }
 };
 

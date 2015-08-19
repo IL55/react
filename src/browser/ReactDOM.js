@@ -169,8 +169,11 @@ var ReactDOM = mapObject({
   stop: 'stop',
   svg: 'svg',
   text: 'text',
-  tspan: 'tspan'
-
+  tspan: 'tspan',
+  feGaussianBlur: 'feGaussianBlur',
+  feOffset: 'feOffset',
+  feBlend: 'feBlend',
+  feComponentTransfer: 'feComponentTransfer'
 }, createDOMFactory);
 
 module.exports = ReactDOM;
