@@ -7836,6 +7836,7 @@ var ReactDOM = mapObject({
   line: 'line',
   linearGradient: 'linearGradient',
   mask: 'mask',
+  filter: 'filter',
   path: 'path',
   pattern: 'pattern',
   polygon: 'polygon',
@@ -16866,7 +16867,8 @@ var SVGDOMPropertyConfig = {
     y1: MUST_USE_ATTRIBUTE,
     y2: MUST_USE_ATTRIBUTE,
     y: MUST_USE_ATTRIBUTE,
-    mask: MUST_USE_ATTRIBUTE
+    mask: MUST_USE_ATTRIBUTE,
+    filter: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
     clipPath: 'clip-path',
@@ -16890,7 +16892,8 @@ var SVGDOMPropertyConfig = {
     strokeWidth: 'stroke-width',
     textAnchor: 'text-anchor',
     viewBox: 'viewBox',
-    mask: 'mask'
+    mask: 'mask',
+    filter: 'filter'
   }
 };
 
@@ -19790,7 +19793,8 @@ var shouldWrap = {
   'rect': true,
   'stop': true,
   'text': true,
-  'mask': true
+  'mask': true,
+  'filter': true
 };
 
 var selectWrap = [1, '<select multiple="true">', '</select>'];
@@ -19834,7 +19838,8 @@ var markupWrap = {
   'rect': svgWrap,
   'stop': svgWrap,
   'text': svgWrap,
-  'mask': svgWrap
+  'mask': svgWrap,
+  'filter': svgWrap
 };
 
 /**

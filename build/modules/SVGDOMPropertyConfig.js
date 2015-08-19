@@ -63,7 +63,8 @@ var SVGDOMPropertyConfig = {
     y1: MUST_USE_ATTRIBUTE,
     y2: MUST_USE_ATTRIBUTE,
     y: MUST_USE_ATTRIBUTE,
-    mask: MUST_USE_ATTRIBUTE
+    mask: MUST_USE_ATTRIBUTE,
+    filter: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
     clipPath: 'clip-path',
@@ -87,7 +88,8 @@ var SVGDOMPropertyConfig = {
     strokeWidth: 'stroke-width',
     textAnchor: 'text-anchor',
     viewBox: 'viewBox',
-    mask: 'mask'
+    mask: 'mask',
+    filter: 'filter'
   }
 };
 

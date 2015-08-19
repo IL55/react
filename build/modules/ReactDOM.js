@@ -159,6 +159,7 @@ var ReactDOM = mapObject({
   line: 'line',
   linearGradient: 'linearGradient',
   mask: 'mask',
+  filter: 'filter',
   path: 'path',
   pattern: 'pattern',
   polygon: 'polygon',
