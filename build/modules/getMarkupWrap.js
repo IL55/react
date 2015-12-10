@@ -43,7 +43,8 @@ var shouldWrap = {
   'stop': true,
   'text': true,
   'mask': true,
-  'filter': true
+  'filter': true,
+  'tspan': true
 };
 
 var selectWrap = [1, '<select multiple="true">', '</select>'];
@@ -88,7 +89,8 @@ var markupWrap = {
   'stop': svgWrap,
   'text': svgWrap,
   'mask': svgWrap,
-  'filter': svgWrap
+  'filter': svgWrap,
+  'tspan': svgWrap
 };
 
 /**
