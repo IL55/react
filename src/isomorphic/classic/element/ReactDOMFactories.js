@@ -171,7 +171,10 @@ var ReactDOMFactories = mapObject({
   svg: 'svg',
   text: 'text',
   tspan: 'tspan',
-
+  feGaussianBlur: 'feGaussianBlur',
+  feOffset: 'feOffset',
+  feBlend: 'feBlend',
+  feComponentTransfer: 'feComponentTransfer',
 }, createDOMFactory);
 
 module.exports = ReactDOMFactories;
