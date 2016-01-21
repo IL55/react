@@ -175,6 +175,10 @@ var ReactDOMFactories = mapObject({
   feOffset: 'feOffset',
   feBlend: 'feBlend',
   feComponentTransfer: 'feComponentTransfer',
+  feFuncA: 'feFuncA',
+  feColorMatrix: 'feColorMatrix',
+  feSpotLight: 'feSpotLight',
+  feComposite: 'feComposite',
 }, createDOMFactory);
 
 module.exports = ReactDOMFactories;
