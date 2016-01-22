@@ -117,6 +117,7 @@ var SVGDOMPropertyConfig = {
     k4: MUST_USE_ATTRIBUTE,
     order: MUST_USE_ATTRIBUTE,
     radius: MUST_USE_ATTRIBUTE,
+    colorInterpolationFilters: MUST_USE_ATTRIBUTE,
   },
   DOMAttributeNamespaces: {
     xlinkActuate: NS.xlink,
@@ -193,6 +194,7 @@ var SVGDOMPropertyConfig = {
     k4: 'k4',
     order: 'order',
     radius: 'radius',
+    colorInterpolationFilters: 'color-interpolation-filters',
     xlinkActuate: 'xlink:actuate',
     xlinkArcrole: 'xlink:arcrole',
     xlinkHref: 'xlink:href',
