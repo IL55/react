@@ -179,6 +179,21 @@ var ReactDOMFactories = mapObject({
   feColorMatrix: 'feColorMatrix',
   feSpotLight: 'feSpotLight',
   feComposite: 'feComposite',
+  feConvolveMatrix: 'feConvolveMatrix',
+  feFlood: 'feFlood',
+  feMerge: 'feMerge',
+  feMergeNode: 'feMergeNode',
+  feFuncR: 'feFuncR',
+  feFuncG: 'feFuncG',
+  feFuncB: 'feFuncB',
+  feImage: 'feImage',
+  feTile: 'feTile',
+  feTurbulence: 'feTurbulence',
+  feDisplacementMap: 'feDisplacementMap',
+  feSpecularLighting: 'feSpecularLighting',
+  feDistantLight: 'feDistantLight',
+  feDiffuseLighting: 'feDiffuseLighting',
+  fePointLight: 'feDiffuseLighting',
 }, createDOMFactory);
 
 module.exports = ReactDOMFactories;
