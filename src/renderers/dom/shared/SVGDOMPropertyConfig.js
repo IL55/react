@@ -116,6 +116,7 @@ var SVGDOMPropertyConfig = {
     k3: MUST_USE_ATTRIBUTE,
     k4: MUST_USE_ATTRIBUTE,
     order: MUST_USE_ATTRIBUTE,
+    radius: MUST_USE_ATTRIBUTE,
   },
   DOMAttributeNamespaces: {
     xlinkActuate: NS.xlink,
@@ -191,6 +192,7 @@ var SVGDOMPropertyConfig = {
     k3: 'k3',
     k4: 'k4',
     order: 'order',
+    radius: 'radius',
     xlinkActuate: 'xlink:actuate',
     xlinkArcrole: 'xlink:arcrole',
     xlinkHref: 'xlink:href',

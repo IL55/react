@@ -194,6 +194,7 @@ var ReactDOMFactories = mapObject({
   feDistantLight: 'feDistantLight',
   feDiffuseLighting: 'feDiffuseLighting',
   fePointLight: 'feDiffuseLighting',
+  feMorphology: 'feMorphology'
 }, createDOMFactory);
 
 module.exports = ReactDOMFactories;
