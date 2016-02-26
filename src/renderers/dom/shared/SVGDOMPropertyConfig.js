@@ -109,6 +109,7 @@ var SVGDOMPropertyConfig = {
     seed: MUST_USE_ATTRIBUTE,
     primitiveUnits: MUST_USE_ATTRIBUTE,
     floodColor: MUST_USE_ATTRIBUTE, // flood-color
+    fillRule: MUST_USE_ATTRIBUTE,
     xChannelSelector: MUST_USE_ATTRIBUTE,
     yChannelSelector: MUST_USE_ATTRIBUTE,
     k1: MUST_USE_ATTRIBUTE,
@@ -188,6 +189,7 @@ var SVGDOMPropertyConfig = {
     floodColor: 'flood-color',
     xChannelSelector: 'xChannelSelector',
     yChannelSelector: 'yChannelSelector',
+    fillRule: 'fill-rule',
     k1: 'k1',
     k2: 'k2',
     k3: 'k3',
