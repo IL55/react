@@ -272,7 +272,7 @@ function assertValidProps(component, props) {
       'For more information, lookup documentation on `dangerouslySetInnerHTML`.'
     );
     warning(
-      (!props.contentEditable || props.children == null) && !props.disableWarning,
+      (!props.contentEditable && !props.disableWarning) || props.children == null,
       'A component is `contentEditable` and contains `children` managed by ' +
       'React. It is now your responsibility to guarantee that none of ' +
       'those nodes are unexpectedly modified or duplicated. This is ' +
